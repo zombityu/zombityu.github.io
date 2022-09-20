@@ -2,44 +2,97 @@
 <html>
 	<head>
 		<meta charset="utf-8"> 
-		 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		 <link href="https://fonts.googleapis.com/css?family=Bitter:700&display=swap" rel="stylesheet">
-		 <link rel="stylesheet" href="style.css">    
-		<title>Vágási István</title>  
-	 </head>
-
-	 <body>  
-
-		<div id="head"> 
-			
-			<div id="link">
-				<a href="#head">HOME</a>
-				<a href="#wiki">WIKI</a>
-				<a href="https://github.com/" target="_blank">GITHUB</a>
-				<a href="https://www.linkedin.com/in/istv%C3%A1n-v%C3%A1g%C3%A1si-15b282159/" target="_blank">LINKEDIN</a>
-			</div>
-
-			<div id="logo">
-				<img  src="assets/letöltés.svg" alt="logo" >
-			</div>
-
-		</div>
-
-		<div class="main">
-
-			<h1 class="name">István Vágási</h1>
-
-			<h2 class="title">Green Fox Academy Student</h2>
-
-			<p class="main-par">I was a professional theater dancer but it wasn't enough for me. <br> I wanted another challenge in my life. This is why I decided to start this course.</p>
-
-			<p class="separate">- - -</p>
-
-			<div id="wiki">
-
-			</div>
-		</div>
-
-	 </body>
-
- </html>
+  		<meta name="author" content="">
+  		<meta name="description" content="">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<link rel="stylesheet" href="assets/css/style.css"> 
+		<title>Istvan Vagasi</title>  
+	</head>
+	<body>  
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav__logo">Ityu</a>
+				
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list grid">
+						<li class="nav__item">
+							<a href="#home" class="nav__link">
+								<i class="uil uil-estate nav__icon"></i> Home
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">
+								<i class="uil uil-user nav__icon"></i> About
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#skills" class="nav__link">
+								<i class="uil uil-file-alt nav__icon"></i> Skills
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#services" class="nav__link">
+								<i class="uil uil-briefcase-alt nav__icon"></i> Services
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#portfolio" class="nav__link">
+								<i class="uil uil-scenery nav__icon"></i> Portfolio
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">
+								<i class="uil uil-message nav__icon"></i> Contact
+							</a>
+						</li>
+					</ul>
+					<i class="uil uil-times nav__close" id="nav-close"></i>
+				</div>
+				<div class="nav__btn">
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="uil uil-apps"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="main">
+			<section class="home section" id="home">
+				<div class="home__container container grid">
+					<div class="home__content grid">
+						<div class="home__social">
+							<a href="linkedin" target="_blank" class="home__social-icon">
+								<i class="uil uil-linkedin-alt"></i>
+							</a>
+							<a href="" target="_blank" class="home__social-icon">
+								<i class="uil uil-github-alt"></i>
+							</a>
+						</div>
+						<div class="home__img">
+							<svg class="home__blob" id="10015.io" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+								<defs>
+									<clipPath id="blob">
+										<path fill="#474bff" d="M433,300Q427,360,376.5,394.5Q326,429,266.5,447.5Q207,466,157,430Q107,394,80,344.5Q53,295,32.5,234Q12,173,62,133Q112,93,161.5,66Q211,39,266,50.5Q321,62,363,98Q405,134,422,187Q439,240,433,300Z" />
+									</clipPath>
+								</defs>
+								<image class="home__blob-img" x="0" y="0" width="100%" height="100%" clip-path="url(#blob)" xlink:href="assets/img" preserveAspectRatio="xMidYMid slice"></image>
+							</svg>
+						</div>
+						<div class="home__data">
+							<h1 class="home__title">Hi, I'am Ityu</h1>
+							<h3 class="home__subtitle">Frontend developer</h3>
+							<p class="home__description"></p>
+							<a href="#" class="button button--flex">
+								Contact Me<i class="uil uil-message button__icon"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="home__scroll">
+					
+				</div>
+			</section>
+		</main>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
